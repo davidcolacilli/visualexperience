@@ -294,6 +294,7 @@ footer {
 
   header ul, header p.view {
     position:static;
+    display: none;
   }
 
   pre, code {
