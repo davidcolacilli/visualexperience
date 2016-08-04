@@ -164,10 +164,6 @@ header {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-header ul, header p.view {
-  display: none;
-}
-
 header ul {
   list-style:none;
   height:40px;
