@@ -164,6 +164,10 @@ header {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
+header ul, header p.view {
+  position:static;
+}
+
 header ul {
   list-style:none;
   height:40px;
@@ -294,7 +298,6 @@ footer {
 
   header ul, header p.view {
     position:static;
-    display: none;
   }
 
   pre, code {
