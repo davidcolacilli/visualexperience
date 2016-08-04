@@ -235,6 +235,24 @@ section {
   width:500px;
   float:right;
   padding-bottom:50px;
+  border-left: 1px solid #CCC;
+  box-sizing: border-box;
+}
+
+section > p {
+  border-bottom: 1ps solid #CCC;
+  padding-bottom: 30px;
+  margin-bottom:30px;
+}
+
+section > p span {
+  display: block;
+  color:#444;
+  font-size: 0.75em;
+}
+
+section > p:last-of-type {
+  border: none;
 }
 
 small {
