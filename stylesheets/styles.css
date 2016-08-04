@@ -78,7 +78,7 @@ h1, h2, h3 {
 h1 {
   font-size:28px;
   text-indent: -9999px;
-  background: url('../img/Lily.svg') top center no-repeat;
+  background: url('../img/vxLogo.svg') top center no-repeat;
   padding-top: 150px;
   max-width: 150px;
 }
@@ -240,9 +240,8 @@ section {
 }
 
 section > p {
-  border-bottom: 1ps solid #CCC;
-  padding-bottom: 30px;
-  margin-bottom:30px;
+  border-bottom: 1px solid #CCC;
+  padding: 30px;
 }
 
 section > p span {
