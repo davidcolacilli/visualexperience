@@ -165,7 +165,7 @@ header {
 }
 
 header ul, header p.view {
-  position:static;
+  display: none;
 }
 
 header ul {
