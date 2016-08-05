@@ -80,7 +80,8 @@ h1 {
   /*text-indent: -9999px;
   background: url('../img/vxLogo.svg') top center no-repeat;
   padding-top: 150px;*/
-  max-width: 150px;
+  max-width: 160px;
+  margin:0 auto 20px;
 }
 
 h2 {
@@ -114,6 +115,7 @@ a:hover small {
 .wrapper {
   width:860px;
   margin:0 auto;
+  overflow: hidden;
 }
 
 blockquote {
@@ -162,9 +164,10 @@ img {
 }
 
 header {
-  width:270px;
+  width:160px;
   float:left;
   position:fixed;
+  text-aling: center;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -232,7 +235,7 @@ header ul a strong {
 }
 
 section {
-  width:500px;
+  width:calc(100% - 260px);
   float:right;
   padding-bottom:50px;
   border-left: 1px solid #CCC;
