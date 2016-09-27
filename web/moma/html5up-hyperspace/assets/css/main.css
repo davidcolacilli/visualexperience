@@ -1537,7 +1537,7 @@ body {
 }
 
 body {
-    background: #312450;
+    background: #FFF;
 }
 
 body.is-loading *,
@@ -3797,6 +3797,11 @@ body.is-loading #sidebar nav ul li {
 
 /* CUSTOM STYLES */
 
+#sidebar .inner>.logo img {
+    width: 100px;
+    padding-top: 17px;
+}
+
 h1 {
     font-weight: 100;
     text-transform: uppercase;
@@ -3834,12 +3839,12 @@ footer a {
     #sidebar {
         display: block;
         position: relative;
-        height: 90px;
+        height: 3.5em;
     }
     #sidebar nav {
         display: none;
     }
-    #sidebar .inner>img {
+    #sidebar .inner>.logo {
         margin: 0 !important;
         padding: 0 !important;
         border: none !important;
@@ -3851,7 +3856,7 @@ footer a {
     }
 }
 
-@media screen and (min-width: 736px) {
+@media screen and (min-width: 737px) {
     #one {
         display: flex;
         flex-direction: column;
@@ -3861,23 +3866,34 @@ footer a {
 }
 
 @media screen and (max-width: 1280px) {
-    #sidebar .inner>img {
-        width: 116px;
-        margin-right: 28px;
-        padding-right: 17px;
+    #sidebar .inner .logo {
+        margin-right: 30px;
+        padding-right: 30px;
         border-right: 1px solid #31002d;
     }
     footer {
         display: block;
-        background: #111;
+        background: #000;
         text-align: center;
     }
     footer img {
-        width: 150px;
+        width: 100px;
+        height: auto;
+        margin-bottom: 40px;
     }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1281px) {
+    #sidebar .inner .logo {
+        margin: 0;
+        padding: 0;
+        border-right: none;
+    }
+    #sidebar .inner .logo img {
+        display: block;
+        width: 80%;
+        margin: 0 auto 80px;
+    }
     #sidebar img,
     #sidebar nav {
         margin-bottom: 80px;
