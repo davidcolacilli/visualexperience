@@ -350,3 +350,22 @@ footer {
     color:#444;
   }
 }
+
+/* Custom styles */
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.project {
+  border-top: 1px solid #CCC;
+}
+.project:first-child {
+  border-top: none;
+}
+.project p {
+  margin-left: 30px;
+}
+.project p + p {
+  font-size: 12px;
+}
